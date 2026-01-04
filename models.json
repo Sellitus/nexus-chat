@@ -1,0 +1,408 @@
+{
+  "version": 1,
+  "lastUpdated": "2025-01-04",
+  "models": [
+    {
+      "id": "llama-3.2-1b-instruct-q4_k_xl",
+      "name": "Llama-3.2-1B-Instruct",
+      "url": "https://huggingface.co/unsloth/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-UD-Q4_K_XL.gguf",
+      "sizeBytes": 834203680,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "Meta Llama 3.2 1B Instruct - ultra compact and fast",
+      "isRecommended": true
+    },
+    {
+      "id": "llama-3.2-3b-instruct-q4_k_xl",
+      "name": "Llama-3.2-3B-Instruct",
+      "url": "https://huggingface.co/unsloth/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-UD-Q4_K_XL.gguf",
+      "sizeBytes": 2060886464,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "Meta Llama 3.2 3B Instruct - excellent quality/size balance",
+      "isRecommended": true
+    },
+    {
+      "id": "deepseek-r1-distill-llama-8b-q2_k_xl",
+      "name": "DeepSeek-R1-Distill-Llama-8B",
+      "url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF/resolve/main/DeepSeek-R1-Distill-Llama-8B-UD-Q2_K_XL.gguf",
+      "sizeBytes": 3388767680,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "DeepSeek R1 distilled to Llama 8B - reasoning model",
+      "isRecommended": true
+    },
+    {
+      "id": "qwen3-0.6b-q4_k_xl",
+      "name": "Qwen3-0.6B",
+      "url": "https://huggingface.co/unsloth/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-UD-Q4_K_XL.gguf",
+      "sizeBytes": 405372608,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "Qwen3 0.6B - ultra compact and fast"
+    },
+    {
+      "id": "lfm2-8b-a1b-q2_k_xl",
+      "name": "LFM2-8B-A1B",
+      "url": "https://huggingface.co/unsloth/LFM2-8B-A1B-GGUF/resolve/main/LFM2-8B-A1B-UD-Q2_K_XL.gguf",
+      "sizeBytes": 3120266304,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "LFM2 8B parameter model with A1B architecture"
+    },
+    {
+      "id": "lfm2-2.6b-exp-q4_k_xl",
+      "name": "LFM2-2.6B-Exp",
+      "url": "https://huggingface.co/unsloth/LFM2-2.6B-Exp-GGUF/resolve/main/LFM2-2.6B-Exp-UD-Q4_K_XL.gguf",
+      "sizeBytes": 1563669120,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "LFM2 2.6B experimental model"
+    },
+    {
+      "id": "gemma-3-1b-it-q4_k_xl",
+      "name": "Gemma-3-1B-it",
+      "url": "https://huggingface.co/unsloth/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-UD-Q4_K_XL.gguf",
+      "sizeBytes": 807035168,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "Gemma 3 1B instruction-tuned - ultra compact"
+    },
+    {
+      "id": "gemma-3-4b-it-q4_k_xl",
+      "name": "Gemma-3-4B-it",
+      "url": "https://huggingface.co/unsloth/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-UD-Q4_K_XL.gguf",
+      "sizeBytes": 2544288896,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "Gemma 3 4B instruction-tuned - balanced performance"
+    },
+    {
+      "id": "gemma-3n-e2b-it-q4_k_xl",
+      "name": "Gemma-3n-E2B-it",
+      "url": "https://huggingface.co/unsloth/gemma-3n-E2B-it-GGUF/resolve/main/gemma-3n-E2B-it-UD-Q4_K_XL.gguf",
+      "sizeBytes": 3753905504,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "Gemma 3n E2B instruction-tuned model"
+    },
+    {
+      "id": "gemma-3n-e4b-it-q4_k_xl",
+      "name": "gemma-3n-E4B-it",
+      "url": "https://huggingface.co/unsloth/gemma-3n-E4B-it-GGUF/resolve/main/gemma-3n-E4B-it-UD-Q4_K_XL.gguf",
+      "sizeBytes": 5385042048,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "Gemma 3n E4B instruction-tuned model"
+    },
+    {
+      "id": "gemma-3-12b-it-q2_k_xl",
+      "name": "Gemma-3-12B-it",
+      "url": "https://huggingface.co/unsloth/gemma-3-12b-it-GGUF/resolve/main/gemma-3-12b-it-UD-Q2_K_XL.gguf",
+      "sizeBytes": 4860535136,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "Gemma 3 12B instruction-tuned - high quality"
+    },
+    {
+      "id": "rnj-1-instruct-q4_k_xl",
+      "name": "rnj-1-instruct",
+      "url": "https://huggingface.co/unsloth/rnj-1-instruct-GGUF/resolve/main/rnj-1-instruct-UD-Q4_K_XL.gguf",
+      "sizeBytes": 5245904576,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "RNJ-1 instruction-following model"
+    },
+    {
+      "id": "ministral-3-3b-reasoning-q4_k_xl",
+      "name": "Ministral-3-3B-Reasoning",
+      "url": "https://huggingface.co/unsloth/Ministral-3-3B-Reasoning-2512-GGUF/resolve/main/Ministral-3-3B-Reasoning-2512-UD-Q4_K_XL.gguf",
+      "sizeBytes": 2191961856,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "Ministral 3B parameter reasoning model - compact and fast"
+    },
+    {
+      "id": "ministral-3-8b-reasoning-q2_k_xl",
+      "name": "Ministral-3-8B-Reasoning",
+      "url": "https://huggingface.co/unsloth/Ministral-3-8B-Reasoning-2512-GGUF/resolve/main/Ministral-3-8B-Reasoning-2512-UD-Q2_K_XL.gguf",
+      "sizeBytes": 3565260832,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "Ministral 8B parameter reasoning model - high quality",
+      "isRecommended": true
+    },
+    {
+      "id": "ministral-3-14b-reasoning-q2_k_xl",
+      "name": "Ministral-3-14B-Reasoning",
+      "url": "https://huggingface.co/unsloth/Ministral-3-14B-Reasoning-2512-GGUF/resolve/main/Ministral-3-14B-Reasoning-2512-UD-Q2_K_XL.gguf",
+      "sizeBytes": 5527104704,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "Ministral 14B parameter reasoning model"
+    },
+    {
+      "id": "ministral-3-14b-instruct-q2_k_xl",
+      "name": "Ministral-3-14B-Instruct",
+      "url": "https://huggingface.co/unsloth/Ministral-3-14B-Instruct-2512-GGUF/resolve/main/Ministral-3-14B-Instruct-2512-UD-Q2_K_XL.gguf",
+      "sizeBytes": 5527106240,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "Ministral 14B parameter instruct model"
+    },
+    {
+      "id": "ministral-3-8b-instruct-q2_k_xl",
+      "name": "Ministral-3-8B-Instruct",
+      "url": "https://huggingface.co/unsloth/Ministral-3-8B-Instruct-2512-GGUF/resolve/main/Ministral-3-8B-Instruct-2512-UD-Q2_K_XL.gguf",
+      "sizeBytes": 3565262368,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "Ministral 8B parameter instruct model"
+    },
+    {
+      "id": "ministral-3-3b-instruct-q4_k_xl",
+      "name": "Ministral-3-3B-Instruct",
+      "url": "https://huggingface.co/unsloth/Ministral-3-3B-Instruct-2512-GGUF/resolve/main/Ministral-3-3B-Instruct-2512-UD-Q4_K_XL.gguf",
+      "sizeBytes": 2191963424,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "Ministral 3B parameter instruct model"
+    },
+    {
+      "id": "olmo-3-7b-think-q2_k_xl",
+      "name": "Olmo-3-7B-Think",
+      "url": "https://huggingface.co/unsloth/Olmo-3-7B-Think-GGUF/resolve/main/Olmo-3-7B-Think-UD-Q2_K_XL.gguf",
+      "sizeBytes": 3033110336,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "OLMo 7B thinking-optimized model"
+    },
+    {
+      "id": "olmo-3-7b-instruct-q2_k_xl",
+      "name": "Olmo-3-7B-Instruct",
+      "url": "https://huggingface.co/unsloth/Olmo-3-7B-Instruct-GGUF/resolve/main/Olmo-3-7B-Instruct-UD-Q2_K_XL.gguf",
+      "sizeBytes": 3033111424,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "OLMo 7B instruction-tuned model"
+    },
+    {
+      "id": "exaone-4.0-1.2b-q8_0",
+      "name": "EXAONE-4.0-1.2B",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-1.2B-GGUF/resolve/main/EXAONE-4.0-1.2B-Q8_0.gguf",
+      "sizeBytes": 1363939616,
+      "quantization": "Q8_0",
+      "type": "TEXT",
+      "description": "EXAONE 4.0 1.2B - LG AI Research model with Q8 precision",
+      "isRecommended": true
+    },
+    {
+      "id": "granite-4.0-1b-q4_k_xl",
+      "name": "Granite-4.0-1B",
+      "url": "https://huggingface.co/unsloth/granite-4.0-1b-GGUF/resolve/main/granite-4.0-1b-UD-Q4_K_XL.gguf",
+      "sizeBytes": 1042454624,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "IBM Granite 4.0 1B - compact and efficient"
+    },
+    {
+      "id": "granite-4.0-h-1b-q4_k_xl",
+      "name": "Granite-4.0-H-1B",
+      "url": "https://huggingface.co/unsloth/granite-4.0-h-1b-GGUF/resolve/main/granite-4.0-h-1b-UD-Q4_K_XL.gguf",
+      "sizeBytes": 911791680,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "IBM Granite 4.0 H-variant 1B"
+    },
+    {
+      "id": "qwen3-1.7b-q4_k_xl",
+      "name": "Qwen3-1.7B",
+      "url": "https://huggingface.co/unsloth/Qwen3-1.7B-GGUF/resolve/main/Qwen3-1.7B-UD-Q4_K_XL.gguf",
+      "sizeBytes": 1132952128,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "Qwen3 1.7B - balanced size and performance"
+    },
+    {
+      "id": "qwen3-4b-thinking-2507-q4_k_xl",
+      "name": "Qwen3-4B-Thinking-2507",
+      "url": "https://huggingface.co/unsloth/Qwen3-4B-Thinking-2507-GGUF/resolve/main/Qwen3-4B-Thinking-2507-UD-Q4_K_XL.gguf",
+      "sizeBytes": 2546340992,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "Qwen3 4B Thinking (July 2025) - reasoning-optimized model",
+      "isRecommended": true
+    },
+    {
+      "id": "qwen3-4b-instruct-2507-q4_k_xl",
+      "name": "Qwen3-4B-Instruct-2507",
+      "url": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-UD-Q4_K_XL.gguf",
+      "sizeBytes": 2546340960,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "Qwen3 4B Instruct (July 2025) - instruction-tuned model"
+    },
+    {
+      "id": "ai21-jamba-reasoning-3b-q4_k_m",
+      "name": "AI21-Jamba-Reasoning-3B",
+      "url": "https://huggingface.co/bartowski/ai21labs_AI21-Jamba-Reasoning-3B-GGUF/resolve/main/ai21labs_AI21-Jamba-Reasoning-3B-Q4_K_M.gguf",
+      "sizeBytes": 1932698592,
+      "quantization": "Q4_K_M",
+      "type": "TEXT",
+      "description": "AI21 Jamba 3B - hybrid Mamba-Transformer reasoning model"
+    },
+    {
+      "id": "apriel-1.5-15b-thinker-q2_k_xl",
+      "name": "Apriel-1.5-15B-Thinker",
+      "url": "https://huggingface.co/unsloth/Apriel-1.5-15b-Thinker-GGUF/resolve/main/Apriel-1.5-15b-Thinker-UD-Q2_K_XL.gguf",
+      "sizeBytes": 5858967136,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "Apriel 1.5 15B Thinker - large reasoning model",
+      "isRecommended": true
+    },
+    {
+      "id": "januscoder-14b-q2_k_xl",
+      "name": "JanusCoder-14B",
+      "url": "https://huggingface.co/unsloth/JanusCoder-14B-GGUF/resolve/main/JanusCoder-14B-UD-Q2_K_XL.gguf",
+      "sizeBytes": 6067584192,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "JanusCoder 14B - coding-focused model"
+    },
+    {
+      "id": "januscoder-8b-q2_k_xl",
+      "name": "JanusCoder-8B",
+      "url": "https://huggingface.co/unsloth/JanusCoder-8B-GGUF/resolve/main/JanusCoder-8B-UD-Q2_K_XL.gguf",
+      "sizeBytes": 3501975200,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "JanusCoder 8B - coding-focused model"
+    },
+    {
+      "id": "ernie-4.5-21b-a3b-thinking-q2_k_xl",
+      "name": "ERNIE-4.5-21B-A3B-Thinking",
+      "url": "https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF/resolve/main/ERNIE-4.5-21B-A3B-Thinking-UD-Q2_K_XL.gguf",
+      "sizeBytes": 8604675264,
+      "quantization": "Q2_K_XL",
+      "type": "TEXT",
+      "description": "Baidu ERNIE 4.5 21B - thinking-optimized model"
+    },
+    {
+      "id": "gpt-oss-20b-pruned-10b-iq4_nl",
+      "name": "GPT-OSS-20B-Pruned-10B",
+      "url": "https://huggingface.co/12bitmisfit/OpenAI_GPT-OSS-20B_Pruned_REAP_10B-GGUF/resolve/main/GPT-OSS-20B-Pruned-IQ4_NL.gguf",
+      "sizeBytes": 6787509280,
+      "quantization": "IQ4_NL",
+      "type": "TEXT",
+      "description": "OpenAI GPT-OSS 20B pruned to 10B - high quality compressed model"
+    },
+    {
+      "id": "nvidia-nemotron-nano-9b-v2-q4_k_m",
+      "name": "NVIDIA-Nemotron-Nano-9B-v2",
+      "url": "https://huggingface.co/QuantFactory/NVIDIA-Nemotron-Nano-9B-v2-GGUF/resolve/main/NVIDIA-Nemotron-Nano-9B-v2.Q4_K_M.gguf",
+      "sizeBytes": 5510471392,
+      "quantization": "Q4_K_M",
+      "type": "TEXT",
+      "description": "NVIDIA Nemotron Nano 9B v2 - reasoning-enhanced model"
+    },
+    {
+      "id": "nvidia-nemotron-nano-12b-v2-q4_k_m",
+      "name": "NVIDIA-Nemotron-Nano-12B-v2",
+      "url": "https://huggingface.co/QuantFactory/NVIDIA-Nemotron-Nano-12B-v2-GGUF/resolve/main/NVIDIA-Nemotron-Nano-12B-v2.Q4_K_M.gguf",
+      "sizeBytes": 6338516576,
+      "quantization": "Q4_K_M",
+      "type": "TEXT",
+      "description": "NVIDIA Nemotron Nano 12B v2 - high-quality reasoning model"
+    },
+    {
+      "id": "qwen3-vl-2b-instruct-1m-q4_k_xl",
+      "name": "Qwen3-VL-2B-Instruct-1M",
+      "url": "https://huggingface.co/unsloth/Qwen3-VL-2B-Instruct-1M-GGUF/resolve/main/Qwen3-VL-2B-Instruct-1M-UD-Q4_K_XL.gguf",
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3-VL-2B-Instruct-1M-GGUF/resolve/main/mmproj-BF16.gguf",
+      "sizeBytes": 1129709408,
+      "mmprojSizeBytes": 822540960,
+      "quantization": "Q4_K_XL",
+      "type": "VISION_LANGUAGE",
+      "description": "Qwen3 VL 2B Instruct - vision-language with 1M context",
+      "isRecommended": true
+    },
+    {
+      "id": "qwen3-vl-4b-instruct-1m-q4_k_xl",
+      "name": "Qwen3-VL-4B-Instruct-1M",
+      "url": "https://huggingface.co/unsloth/Qwen3-VL-4B-Instruct-1M-GGUF/resolve/main/Qwen3-VL-4B-Instruct-1M-UD-Q4_K_XL.gguf",
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3-VL-4B-Instruct-1M-GGUF/resolve/main/mmproj-BF16.gguf",
+      "sizeBytes": 2546342336,
+      "mmprojSizeBytes": 839326368,
+      "quantization": "Q4_K_XL",
+      "type": "VISION_LANGUAGE",
+      "description": "Qwen3 VL 4B Instruct - vision-language with 1M context"
+    },
+    {
+      "id": "qwen3-vl-8b-instruct-1m-q2_k_xl",
+      "name": "Qwen3-VL-8B-Instruct-1M",
+      "url": "https://huggingface.co/unsloth/Qwen3-VL-8B-Instruct-1M-GGUF/resolve/main/Qwen3-VL-8B-Instruct-1M-UD-Q2_K_XL.gguf",
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3-VL-8B-Instruct-1M-GGUF/resolve/main/mmproj-BF16.gguf",
+      "sizeBytes": 3501976576,
+      "mmprojSizeBytes": 1162569280,
+      "quantization": "Q2_K_XL",
+      "type": "VISION_LANGUAGE",
+      "description": "Qwen3 VL 8B Instruct - vision-language with 1M context"
+    },
+    {
+      "id": "qwen3-vl-2b-thinking-1m-q4_k_xl",
+      "name": "Qwen3-VL-2B-Thinking-1M",
+      "url": "https://huggingface.co/unsloth/Qwen3-VL-2B-Thinking-1M-GGUF/resolve/main/Qwen3-VL-2B-Thinking-1M-UD-Q4_K_XL.gguf",
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3-VL-2B-Thinking-1M-GGUF/resolve/main/mmproj-BF16.gguf",
+      "sizeBytes": 1132953920,
+      "mmprojSizeBytes": 822540960,
+      "quantization": "Q4_K_XL",
+      "type": "VISION_LANGUAGE",
+      "description": "Qwen3 VL 2B Thinking - vision-language with 1M context"
+    },
+    {
+      "id": "qwen3-vl-4b-thinking-1m-q4_k_xl",
+      "name": "Qwen3-VL-4B-Thinking-1M",
+      "url": "https://huggingface.co/unsloth/Qwen3-VL-4B-Thinking-1M-GGUF/resolve/main/Qwen3-VL-4B-Thinking-1M-UD-Q4_K_XL.gguf",
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3-VL-4B-Thinking-1M-GGUF/resolve/main/mmproj-BF16.gguf",
+      "sizeBytes": 2546342816,
+      "mmprojSizeBytes": 839326368,
+      "quantization": "Q4_K_XL",
+      "type": "VISION_LANGUAGE",
+      "description": "Qwen3 VL 4B Thinking - vision-language with 1M context"
+    },
+    {
+      "id": "qwen3-vl-8b-thinking-1m-q2_k_xl",
+      "name": "Qwen3-VL-8B-Thinking-1M",
+      "url": "https://huggingface.co/unsloth/Qwen3-VL-8B-Thinking-1M-GGUF/resolve/main/Qwen3-VL-8B-Thinking-1M-UD-Q2_K_XL.gguf",
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3-VL-8B-Thinking-1M-GGUF/resolve/main/mmproj-BF16.gguf",
+      "sizeBytes": 3501977056,
+      "mmprojSizeBytes": 1162569280,
+      "quantization": "Q2_K_XL",
+      "type": "VISION_LANGUAGE",
+      "description": "Qwen3 VL 8B Thinking - vision-language with 1M context"
+    },
+    {
+      "id": "qwen3-vl-30b-a3b-instruct-tq1_0",
+      "name": "Qwen3-VL-30B-A3B-Instruct",
+      "url": "https://huggingface.co/unsloth/Qwen3-VL-30B-A3B-Instruct-GGUF/resolve/main/Qwen3-VL-30B-A3B-Instruct-UD-TQ1_0.gguf",
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3-VL-30B-A3B-Instruct-GGUF/resolve/main/mmproj-BF16.gguf",
+      "sizeBytes": 8161777376,
+      "mmprojSizeBytes": 1087039168,
+      "quantization": "TQ1_0",
+      "type": "VISION_LANGUAGE",
+      "description": "Qwen3 VL 30B A3B - large vision-language with MoE architecture"
+    },
+    {
+      "id": "glm-4.6v-9b-flash-q2_k_xl",
+      "name": "GLM-4.6V-9B-Flash",
+      "url": "https://huggingface.co/unsloth/GLM-4.6V-Flash-GGUF/resolve/main/GLM-4.6V-Flash-UD-Q2_K_XL.gguf",
+      "mmprojUrl": "https://huggingface.co/unsloth/GLM-4.6V-Flash-GGUF/resolve/main/mmproj-BF16.gguf",
+      "sizeBytes": 4211066464,
+      "mmprojSizeBytes": 1840904320,
+      "quantization": "Q2_K_XL",
+      "type": "VISION_LANGUAGE",
+      "description": "GLM 4.6V Flash 9B - fast vision-language from Zhipu AI"
+    }
+  ]
+}
