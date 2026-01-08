@@ -63,7 +63,8 @@
       "sizeBytes": 730895584,
       "quantization": "Q4_K_XL",
       "type": "TEXT",
-      "description": "LFM2.5 1.2B Instruct - compact Liquid model"
+      "description": "LFM2.5 1.2B Instruct - compact Liquid model",
+      "isRecommended": true
     },
     {
       "id": "gemma-3-1b-it-q4_k_xl",
@@ -199,8 +200,7 @@
       "sizeBytes": 1363939616,
       "quantization": "Q8_0",
       "type": "TEXT",
-      "description": "EXAONE 4.0 1.2B - LG AI Research model with Q8 precision",
-      "isRecommended": true
+      "description": "EXAONE 4.0 1.2B - LG AI Research model with Q8 precision"
     },
     {
       "id": "granite-4.0-1b-q4_k_xl",
@@ -383,7 +383,8 @@
       "mmprojSizeBytes": 839326368,
       "quantization": "Q4_K_XL",
       "type": "VISION_LANGUAGE",
-      "description": "Qwen3 VL 4B Thinking - vision-language with 1M context"
+      "description": "Qwen3 VL 4B Thinking - vision-language with 1M context",
+      "isRecommended": true
     },
     {
       "id": "qwen3-vl-8b-thinking-1m-q2_k_xl",
@@ -416,18 +417,20 @@
       "mmprojSizeBytes": 1840904320,
       "quantization": "Q2_K_XL",
       "type": "VISION_LANGUAGE",
-      "description": "GLM 4.6V Flash 9B - fast vision-language from Zhipu AI"
+      "description": "GLM 4.6V Flash 9B - fast vision-language from Zhipu AI",
+      "isRecommended": true
     },
     {
       "id": "lfm2.5-vl-1.6b-q8_0",
       "name": "LFM2.5-VL-1.6B",
       "url": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-GGUF/resolve/main/LFM2.5-VL-1.6B-Q8_0.gguf",
-      "mmprojUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-GGUF/resolve/main/mmproj-LFM2.5-VL-1.6b-Q8_0.gguf",
+      "mmprojUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-GGUF/resolve/main/mmproj-LFM2.5-VL-1.6b-BF16.gguf",
       "sizeBytes": 1246254560,
-      "mmprojSizeBytes": 583109888,
+      "mmprojSizeBytes": 856000000,
       "quantization": "Q8_0",
       "type": "VISION_LANGUAGE",
-      "description": "LFM2.5 VL 1.6B - compact Liquid vision-language model"
+      "description": "LFM2.5 VL 1.6B - compact Liquid vision-language model",
+      "isRecommended": true
     },
     {
       "id": "granite-embedding-small-english-r2-q8_0",
