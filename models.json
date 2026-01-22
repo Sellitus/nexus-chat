@@ -57,14 +57,23 @@
       "description": "LFM2 2.6B experimental model"
     },
     {
+      "id": "lfm2.5-1.2b-thinking-q4_k_xl",
+      "name": "LFM2.5-1.2B-Thinking",
+      "url": "https://huggingface.co/unsloth/LFM2.5-1.2B-Thinking-GGUF/resolve/main/LFM2.5-1.2B-Thinking-UD-Q4_K_XL.gguf",
+      "sizeBytes": 730895584,
+      "quantization": "Q4_K_XL",
+      "type": "TEXT",
+      "description": "LFM2.5 1.2B Thinking - compact Liquid reasoning model",
+      "isRecommended": true
+    },
+    {
       "id": "lfm2.5-1.2b-instruct-q4_k_xl",
       "name": "LFM2.5-1.2B-Instruct",
       "url": "https://huggingface.co/unsloth/LFM2.5-1.2B-Instruct-GGUF/resolve/main/LFM2.5-1.2B-Instruct-UD-Q4_K_XL.gguf",
       "sizeBytes": 730895584,
       "quantization": "Q4_K_XL",
       "type": "TEXT",
-      "description": "LFM2.5 1.2B Instruct - compact Liquid model",
-      "isRecommended": true
+      "description": "LFM2.5 1.2B Instruct - compact Liquid model"
     },
     {
       "id": "gemma-3-1b-it-q4_k_xl",
@@ -138,7 +147,8 @@
       "sizeBytes": 1599939994,
       "quantization": "Q2_K_XL",
       "type": "TEXT",
-      "description": "Ministral 3B parameter reasoning model - compact and fast"
+      "description": "Ministral 3B parameter reasoning model - compact and fast",
+      "isRecommended": true
     },
     {
       "id": "ministral-3-8b-reasoning-q2_k_xl",
@@ -244,7 +254,7 @@
       "id": "qwen3-4b-thinking-2507-q2_k_xl",
       "name": "Qwen3-4B-Thinking-2507",
       "url": "https://huggingface.co/unsloth/Qwen3-4B-Thinking-2507-GGUF/resolve/main/Qwen3-4B-Thinking-2507-UD-Q2_K_XL.gguf",
-      "sizeBytes": 1825361101,
+      "sizeBytes": 1695724672,
       "quantization": "Q2_K_XL",
       "type": "TEXT",
       "description": "Qwen3 4B Thinking (July 2025) - reasoning-optimized model",
@@ -497,7 +507,7 @@
       "id": "embeddinggemma-300m-q8_0",
       "name": "EmbeddingGemma (Premium)",
       "url": "https://huggingface.co/unsloth/embeddinggemma-300m-GGUF/resolve/main/embeddinggemma-300M-Q8_0.gguf",
-      "sizeBytes": 329000000,
+      "sizeBytes": 328577056,
       "quantization": "Q8_0",
       "type": "EMBEDDING",
       "description": "Google Gemma-based 300M - 768-dim embeddings, highest quality retrieval",
@@ -521,8 +531,8 @@
       "name": "SmolVLM2-500M (Better)",
       "url": "https://huggingface.co/mradermacher/SmolVLM2-500M-Video-Instruct-i1-GGUF/resolve/main/SmolVLM2-500M-Video-Instruct.i1-Q6_K.gguf",
       "mmprojUrl": "https://huggingface.co/ggml-org/SmolVLM2-500M-Video-Instruct-GGUF/resolve/main/mmproj-SmolVLM2-500M-Video-Instruct-f16.gguf",
-      "sizeBytes": 357785760,
-      "mmprojSizeBytes": 204898464,
+      "sizeBytes": 417763040,
+      "mmprojSizeBytes": 199470624,
       "quantization": "i1-Q6_K",
       "type": "VISION_HELPER",
       "description": "Small VLM for detailed image descriptions. Better quality but slower",
@@ -580,7 +590,7 @@
       "id": "functiongemma-270m-q6_k_xl",
       "name": "FunctionGemma-270M",
       "url": "https://huggingface.co/unsloth/functiongemma-270m-it-GGUF/resolve/main/functiongemma-270m-it-UD-Q6_K_XL.gguf",
-      "sizeBytes": 299892736,
+      "sizeBytes": 286162144,
       "quantization": "Q6_K_XL",
       "type": "FUNCTION_CALLING",
       "description": "Google FunctionGemma 270M - lightweight function calling model for smart research decisions",
